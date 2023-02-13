@@ -14,7 +14,7 @@ namespace ReadWrite
             Console.WriteLine();
 
             string test;
-            test = System.IO.File.ReadAllText("test.txt"); //read Program.cs to show all code
+            test = System.IO.File.ReadAllText("test.txt"); //read Program.cs to show all code // folder/ to read in other folders
             Console.WriteLine(test);
 
             Console.WriteLine();
